@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1657655608 source:/home/scm/Yaknema_Internship/project1/data.c
+	"data.h"
+
+1657655575 /home/scm/Yaknema_Internship/project1/data.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1657657872 source:/home/scm/Yaknema_Internship/project1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"siteOps.h"
+	"userList.h"
+	"user.h"
+	"Systeme.h"
+	"accounts.h"
+	"fileOp.h"
+
+1657656570 source:/home/scm/Yaknema_Internship/project1/nav.c
+	"nav.h"
+
+1657655367 /home/scm/Yaknema_Internship/project1/nav.h
+	"data.h"
+
+1657657364 /home/scm/Yaknema_Internship/project1/user.h
+	"userList.h"
+
+1657657485 /home/scm/Yaknema_Internship/project1/Systeme.h
+	"user.h"
+	"fileOp.h"
+
+1657655147 source:/home/scm/Yaknema_Internship/project1/user.c
+	"user.h"
+
+1657658049 source:/home/scm/Yaknema_Internship/project1/Systeme.c
+	"Systeme.h"
+
+1657657863 source:/home/scm/Yaknema_Internship/project1/accounts.c
+	"accounts.h"
+
+1657657514 /home/scm/Yaknema_Internship/project1/accounts.h
+	"Systeme.h"
+
+1657656447 source:/home/scm/Yaknema_Internship/project1/fileOp.c
+	"fileOp.h"
+
+1657656641 /home/scm/Yaknema_Internship/project1/fileOp.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1657657677 /home/scm/Yaknema_Internship/project1/userList.h
+	"siteOps.h"
+
+1657655575 /home/scm/Yaknema_Internship/project1/siteOps.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1657657116 source:/home/scm/Yaknema_Internship/project1/siteOps.c
+	"siteOps.h"
+
+1657657932 source:/home/scm/Yaknema_Internship/project1/userList.c
+	"userList.h"
+
