@@ -8,6 +8,6 @@
 - Generate a random password for the different connections to differents sites
 - Display all usernames password combinations for all sites of a particular user
 - Create a connection to a site
-- Modify information about about a site
+- Modify information about a site
 - Delete a connection to a site
 - Modify user account credentials
