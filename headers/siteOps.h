@@ -1,15 +1,15 @@
 #ifndef data_H
 #define data_H
-
+#define MAX 1000
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #include<time.h>
 
 typedef struct Site{
-char name[50];
- char username[20];
- char password[20];
+char name[MAX];
+ char username[MAX];
+ char password[MAX];
 }Site;
 
 Site makeSite(char name[],char username[],char pass[]);
