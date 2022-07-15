@@ -10,7 +10,7 @@ ListPtr makeList(Site s){
 
  //fonction qui ajoute un site dans une liste
 ListPtr addList(ListPtr head){
- char name[50],username[20],pass[20];
+ char name[MAX],username[MAX],pass[MAX];
  Site s;
  int t;
  ListPtr np;
@@ -90,7 +90,7 @@ ListPtr modifyList(ListPtr head,char nom[],char username[]){
  }
 //fonction qui lis le contenu du fichier dans la liste
  ListPtr readFile(FILE* in,char name[],ListPtr head){
- char n[50],p[50],q[50];
+ char n[MAX],p[MAX],q[MAX];
  /*
  n represente le nom du site
  p represente le nom d'utilisateur
