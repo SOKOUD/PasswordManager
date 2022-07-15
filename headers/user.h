@@ -5,8 +5,8 @@
 //structure de donnee qui represente un utilisateur
 typedef struct User{
  ListPtr l;
- char name[20];
- char password[20];
+ char name[MAX];
+ char password[MAX];
 }User;
 
 User makeUser(char name[],char password[]);
