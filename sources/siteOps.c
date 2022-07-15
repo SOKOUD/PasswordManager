@@ -24,7 +24,7 @@ rand()%50 retourne un entier entre 0 et 49
 (rand()%50)+64 retourne un entier entre 64 et 113
  (char)(rand()%50)+64 effectue une conversion de type d'entier a caractere
 */
-  *(pass+i)=(char)(rand()%58)+65;
+  *(pass+i)=(char)(rand()%26)+65;
   i++;
  }
  return pass;
