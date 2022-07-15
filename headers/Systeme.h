@@ -5,7 +5,7 @@
 //structure de donnee qui contient la liste de tous les utilisateurs du systeme
 typedef struct Systeme{
  User U;
- char fileName[50];
+ char fileName[MAX];
  struct Systeme *next;
 }*SystemPtr,Systeme;
 
